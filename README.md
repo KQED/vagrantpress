@@ -1,6 +1,6 @@
 # VagrantPress
 
-*VagrantPress* is a packaged development environment for developing WordPress themes and modules.  
+*VagrantPress* is a packaged development environment for developing WordPress themes and modules.
 I initially created this project to aid in developing child modules for a WordPress blog.
 
 # What's Installed
@@ -31,10 +31,10 @@ I initially created this project to aid in developing child modules for a WordPr
 
 ## Getting Started
 
-This is a fairly simple project to get up and running.  
+This is a fairly simple project to get up and running.
 The procedure for starting up a working WordPress is as follows:
 
-1. Clone the project.  (There’s only master branch.)
+1. Clone the project.  (There's only master branch.)
 2. Run the command `vagrant up`
 3. Open your browser to http://localhost:8080
 
@@ -47,6 +47,8 @@ To log in to the local Wordpress installation:
 You can access phpMyAdmin:
 
 `http://localhost:8080/phpmyadmin/` with username `wordpress`, password `wordpress`.
+
+For full admin access, use username `root`, password `vagrant`.
 
 ## A Few Details
 
